@@ -1,0 +1,42 @@
+/* CSS cho form tin tức */
+.new_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content_container {
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form_1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form_1 input,
+  .form_1 textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .form_1 button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .form_1 button:hover {
+    background-color: #0056b3;
+  }
+  

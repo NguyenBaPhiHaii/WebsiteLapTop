@@ -1,0 +1,41 @@
+.image_section img{
+    width: 700px;
+}
+.new_container {
+    display: flex;
+    border-left: 1px solid rgba(0, 0, 0, 0.158);
+  }
+  
+  .content_container {
+    flex: 1;
+    padding: 20px;
+  }
+  .content-cell {
+    margin-top: 10px;
+  }
+  .delete_new{
+    padding: .5rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: tomato;
+    outline: none;
+    color: aliceblue;
+    cursor: pointer;
+  }
+  .update_new{
+    padding: .5rem 1.1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: tomato;
+    outline: none;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none; 
+  }
+  .delete_new:hover,
+  .update_new:hover{
+    background-color: rgb(218, 76, 51);
+  }
+  .delete_new{
+    margin: 0px 10px;
+  }

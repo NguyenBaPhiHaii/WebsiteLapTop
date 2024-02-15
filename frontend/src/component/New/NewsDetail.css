@@ -1,0 +1,33 @@
+.container_detailnew {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  }
+  
+  .title_detailnew {
+    font-size: 30px;
+    font-weight: bold;
+    color: #cd1313;
+    margin-bottom: 70px;
+    text-align: center;
+    border-bottom: 1px solid #cd1313;
+    margin-left: 25%;
+    width: 50%;
+  }
+  
+  .image_detailnew {
+    margin-left: 20%;
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+    margin-bottom: 100px;
+  }
+  
+  .content_detailnew {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    padding-left: 150px;
+  }
+  

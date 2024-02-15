@@ -1,0 +1,149 @@
+.CartItemCard {
+    display: flex;
+    padding: 1vmax;
+    height: 8vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .CartItemCard > img {
+    width: 5vmax;
+  }
+  
+  .CartItemCard > div {
+    display: flex;
+    margin: 0.3vmax 1vmax;
+    flex-direction: column;
+  }
+  
+  .CartItemCard > div > a {
+    font: 600 1vmax "Poppins";
+    color: rgba(0, 0, 0, 0.675);
+    text-decoration: none;
+  }
+  
+  .CartItemCard > div > span {
+    font: 300 0.9vmax "Poppins";
+    color: rgba(24, 24, 24, 0.815);
+  }
+  
+  .CartItemCard > div > p {
+    color: tomato;
+    font: 100 0.8vmax "Poppins";
+    cursor: pointer;
+  }
+  .CartItemCard > div > p:hover{
+    color: rgb(218, 50, 20);
+  }
+  .confirmation-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: .5s;
+  }
+  
+  .confirmation-dialog .btn-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .confirmation-dialog button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .confirmation-dialog .confirm-p{
+    color: crimson;
+    display: flex;
+    margin-right: 2rem;
+  }
+  .confirmation-dialog .confirm-btn,.cancel-btn{
+    margin-top: 3rem;
+    padding: 0 5px;
+  }
+  .confirmation-dialog .confirm-btn {
+    background-color: pink;
+    color: crimson;
+    padding: .7rem 4rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+  }
+  .confirmation-dialog .confirm-btn:hover{
+    background-color: rgb(239, 165, 177);
+  }
+  
+  .confirmation-dialog .cancel-btn {
+    background-color: #edebeb;
+    color: #868585;
+    border-radius: 5px;
+    padding: .7rem 3rem;
+  }
+  .confirmation-dialog .cancel-btn:hover{
+    color: #717070;
+    background-color: #dcdbdb;
+  }
+  .confirmation-dialog .confirm-h1{
+    text-align: left;
+    font-weight: 550;
+    margin-bottom: 3rem;
+    font-size: 20px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+  
+  .confirmation-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .CartItemCard {
+      padding: 3vmax;
+      height: 25vmax;
+    }
+    .CartItemCard > img {
+      width: 13vmax;
+      margin: 10px 5px 0px 0px;
+    }
+  
+    .CartItemCard > div {
+      margin: 1vmax 2vmax;
+    }
+  
+    .CartItemCard > div > a {
+      font: 500 1.5vmax "Poppins";
+    }
+  
+    .CartItemCard > div > span {
+      font: 300 1.5vmax "Poppins";
+      color: tomato;
+    }
+  
+    .CartItemCard > div > p {
+      font: 100 1.5vmax "Poppins";
+    }
+  }
+  

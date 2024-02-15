@@ -1,0 +1,282 @@
+
+.banner {
+    background-image: url("../../images/cover.jfif"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .banner > h1 {
+    margin: 5vmax;
+  
+    font: 600 2.5vmax "Poppins";
+  }
+  
+  .banner > p {
+    font: 300 1.4vmax "Poppins";
+  }
+  
+  .banner > a > button {
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 1vmax;
+    transition: all 0.5s;
+    width: 9vmax;
+    font: 500 1vmax "Poppins";
+  }
+  .banner > a > button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+  }
+  
+  .banner::after {
+    content: "";
+    width: 100vw;
+    height: 100vmin;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+    max-width: 100%;
+  }
+.intro ul{display: flex; margin-left: 100px;}
+.intro ul li{
+  list-style: none;
+  width: 575px;
+  margin: 53px 15px;
+    
+}
+.react-slideshow-container .default-nav:first-of-type{
+  display: none;
+  /* margin-left: 7.3rem; */
+}
+.react-slideshow-container .default-nav:last-of-type{
+  display: none;
+  /* margin-right: 7.3rem; */
+}
+.intro ul li:first-child {
+    margin-left: 0px;
+}
+
+.intro ul li:last-child {
+    margin-right: 0px;
+}
+.bg3 {
+  background-color: #67829f;
+  border-radius: 10px;
+}
+.bg2 {
+  background-color: #ba996d;
+  border-radius: 10px;
+}
+.bg1 {
+  background-color: #c45d64;
+  border-radius: 10px;
+}
+.bg1:hover{
+  background-color: #c6414a;
+}
+.bg2:hover {
+  background-color: #d5994a;
+}
+.bg3:hover {
+  background-color: #567ca4;
+}
+
+.bg4 {
+  background-color: #4baa85;
+  border-radius: 10px;
+}
+.bg5 {
+  background-color: #91aa3f;
+  border-radius: 10px;
+}
+.bg6 {
+  background-color: #d5555d;
+  border-radius: 10px;
+}
+.bg4:hover{
+  background-color: #128458;
+}
+.bg5:hover {
+  background-color: #617b0a;
+}
+.bg6:hover {
+  background-color: #a30b15;
+}
+.btn_intro{
+    float: left;
+    padding: 21px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    list-style: none;
+    /* text-transform: uppercase;*/
+} 
+
+.intro{
+  margin-top: 20px;
+}
+  .homeHeading {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6vmax;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 5vmax auto;
+    color: rgb(0, 0, 0, 0.7);
+  }
+  
+  .container {
+    display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .productCard {
+    width: 14vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 2vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+  }
+  
+  .productCard > img {
+    width: 14vmax;
+  }
+  
+  .productCard > div {
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .productCardSpan {
+    margin: 0.5vmax;
+    font: 300 0.7vmax "Poppins";
+  }
+  
+  .productCard > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+  }
+  
+  .productCard > span {
+    margin: 0.5vmax;
+    color: rgb(236, 59, 27);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vmax;
+  }
+
+  .productCard:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    scale: 1.1;
+    transform: translateY(-1vmax);
+  }
+
+.shopnow{
+  outline: none;
+  animation: pulse 2s infinite; 
+  transform: scale(1);
+}
+
+  @media screen and (max-width: 1124px){
+    .btn_intro{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 862px){
+    .logoReactNavbar {
+        width: 122%!important;
+    }
+    .nav2{
+      justify-content: center!important;
+      flex-direction: initial!important;
+    }
+
+    .nav3 {
+      flex-direction: initial!important;
+      justify-content: center!important;
+    }
+  .nav4 {
+    flex-direction: initial!important;
+    justify-content: center!important;
+  }
+  
+  }
+  @media screen and (max-width: 600px) {
+    .productCard > p {
+      font-size: 1.7vmax;
+    }
+
+    .productCard > div {
+      margin: 0vmax;
+      display: block;
+    }
+  
+    .productCard > span {
+      font-size: 1.5vmax;
+    }
+  
+    .productCard > div > span {
+      margin: 0 0.5vmax;
+      font: 300 1vmax "Roboto";
+    }
+  }
+  @media screen and (max-width: 586px) {
+    .productCard > p {
+      width: 10vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    margin: 1vmax;
+    transition: all 0.5s;
+    padding-bottom: 0.5vmax;
+    }
+  
+    .productCard > div {
+      margin: 0vmax;
+      display: block;
+    }
+  
+    .productCard > span {
+      font-size: 1.5vmax;
+    }
+  
+    .productCard > div > span {
+      margin: 0 0.5vmax;
+      font: 300 1vmax "Roboto";
+    }
+    
+  }
+  @media screen and (max-width: 480px) {
+    .slideshow{
+      display: none;
+    }
+    
+  }
